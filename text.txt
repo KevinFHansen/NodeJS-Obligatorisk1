@@ -1,0 +1,7 @@
+VARIABLES
+
+//3 måder af definere string på
+const messageVersionOne = "";
+const messageVersionTwo = '';
+//Inject variabler ind i stringen. 
+const messageVersionThree = ``;

@@ -1,0 +1,28 @@
+
+
+<form id="formid" method="post" action="/login/login">
+    <div class="imgcontainer">
+    </div>
+    <div class="container">
+    <label for="username"><b>Username</b></label>
+    <input id="inputname" type="text" placeholder="Enter Username" name="username" required>
+    <label for="password"><b>Password</b></label>
+    <input id="inputpw" type="password" placeholder="Enter Password" name="password" required>
+    <button id="loginbtn" type="submit">Login</button>
+    </div>
+</form>
+
+<a id="signupbtn" >Sign Up</a>
+<form id="signupform" method="post" action="/login/admin">
+    <div class="imgcontainer">
+    </div>
+    <div class="container">
+    <label for="username"><b>Username</b></label>
+    <input id="inputnamesignup" type="text" placeholder="Enter Username" name="username" required>
+    <label for="password"><b>Password</b></label>
+    <input id="inputpwsignup" type="password" placeholder="Enter Password" name="password" required>
+    <button id="signupsubmit" type="submit">Sign Up</button>
+    </div>
+</form>
+
+<script src="./pages/auth/login.js" type="module"></script>

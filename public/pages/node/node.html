@@ -1,0 +1,39 @@
+
+<h1>Node allows us to use javascript to write server side applications. </h1>
+
+
+<h1>Express</h1>
+
+Express is a framework in node, which allows us to easily set up routers, templates and serverside rendering (SSR). 
+Express listens to a specified port and runs a server. 
+To install express we add "express"" to our dependencies in package.json and go to our directory in a terminal and run the command "npm install".
+
+<h2>package.json</h2>
+
+In package.json we specify our dependencies, which is compareble to what we know as the .pom file from java.
+It's like the main root of our project. We can add different libraries and use them for our project. 
+
+We can also define scripts that must run on our server. 
+
+In our case nodemon makes the server constantly listen for changes in the directory. When it does, it restarts, and saves us alot of time in the long run.
+We can specify which files it should listen to in the nodemon.json file. 
+
+In production we just want to run "node app.js" which starts our server.
+
+<a href="https://docs.npmjs.com/cli/v8/using-npm/scripts" target="_blank">Learn More</a>
+
+
+<h1>Modules</h1>
+In the package.json we also add "type": "module". It changes the syntax from require to the use of "Import/Export".
+
+<h1 id="crossenv">Cross env?</h1>
+Windows can have some issues setting environment variables in the terminal. 
+It's worth mentioning that you can use the scripts in package.json to declare those things 
+To set the port e.g. "cross-env PORT=8080 nodemon app.js".
+
+<h1>Server Side Rendering (SSR)</h1>
+Websites are loaded based on html, css og js files which are fetched from the server. 
+Server side rendering is about rendering the webpage before it is sent to the client. 
+If we were to render on the client side (CCR), the server would send all the required files and the client would process them afterwards. 
+Client side rendering can be benificial in large interactive applications, so we wont overrun our server. 
+<script src="./pages/node/node.js"></script>

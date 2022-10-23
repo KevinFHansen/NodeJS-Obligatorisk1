@@ -1,0 +1,34 @@
+
+
+
+
+
+
+
+
+
+
+
+
+Node 
+
+- Express
+- Import/exporting (MODULES)
+- Nodemon 
+- package.json / npm install expresss
+- Redirecting (CLIENTSIDE & SERVERSIDE)
+
+Javascript
+- Callback functions 
+- Loops
+- Arrow functions!
+- scripts
+HTTP
+- Rest API conventions
+- HTTPS
+- Clean Code / Code conventions
+
+
+
+
+Who am I?
