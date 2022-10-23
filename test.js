@@ -1,30 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 const names = ['jesper', 'peter', 'elise', 'sarah', 'oliver', 'jasper'];
 
 //Returns a filtered copy of the array with the names that ends with the letter r 

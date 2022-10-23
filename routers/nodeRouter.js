@@ -5,7 +5,7 @@ const router = Router();
 const nodePage = renderPage("/node/node.html", 
 { 
     tabTitle: "Node", 
-    cssLink: `<link rel="stylesheet" href="/pages/frontpage/frontpage.css">` 
+    cssLink: `<link rel="stylesheet" href="/pages/node/node.css">` 
 });
 
 router.get("/node", (req, res) => {
